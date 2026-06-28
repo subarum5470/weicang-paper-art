@@ -30,3 +30,28 @@
   color: var(--muted);
 }
 .product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:38px}.product-card{overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#fffdf9;box-shadow:var(--shadow)}.product-card img{width:100%;height:280px;object-fit:cover;background:var(--cream)}.product-card h3,.product-card p{margin-right:24px;margin-left:24px}.product-card h3{margin-top:24px}.product-card p{margin-top:12px;margin-bottom:28px;color:var(--muted)}.contact{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:clamp(28px,6vw,80px);background:#efe7d9}.contact p{max-width:650px;color:var(--muted)}address{display:grid;gap:12px;align-content:center;font-style:normal}address a{padding:16px 0;border-bottom:1px solid rgba(59,51,45,.18);font-size:18px;font-weight:700}.site-footer{padding:44px clamp(20px,5vw,72px);background:#2f2f2d;color:rgba(255,250,243,.86);text-align:center;font-size:14px}.site-footer p{margin:0}.footer-brand{color:#d6aa45;font-family:"Noto Serif TC","PMingLiU",serif;font-size:30px;font-weight:700;letter-spacing:.08em}.footer-line{margin-top:18px!important;color:rgba(255,250,243,.88);font-size:20px;font-weight:700}.footer-copyright{margin-top:28px!important;color:rgba(255,250,243,.82);font-size:16px;font-weight:700}@media (max-width:860px){.site-header{align-items:flex-start;flex-direction:column}.site-nav{flex-wrap:wrap}.hero,.two-column,.experience-list,.product-grid,.contact{grid-template-columns:1fr}.hero{min-height:auto}}@media (max-width:520px){.actions{display:grid}.button{width:100%}}
+
+.product-preview {
+  background: #fffaf3;
+}
+
+.preview-text {
+  max-width: 680px;
+  margin: 20px 0 28px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.page-hero {
+  padding: clamp(72px, 10vw, 118px) clamp(20px, 5vw, 72px) clamp(44px, 7vw, 76px);
+  background: linear-gradient(112deg, #fffaf3 0%, #fff7ee 52%, #f1ddc8 100%);
+}
+
+.page-hero .lead {
+  max-width: 720px;
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 700;
+}
